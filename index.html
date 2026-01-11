@@ -13,6 +13,11 @@
     </head>
 
     <body>
+         <!-- Load external JavaScript -->
+        <script src="scripts.js"></script>
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+        
         <header class="navbar">
             <img src="TeamLogo.svg" class="logo">
             <h1><center>APEX MOTORSPORTS</center></h1>
@@ -26,9 +31,12 @@
         </header>
 
         <center><h2>Welcome to the Apex Motorsports Website</h2></center>
-                
-        <!-- Load external JavaScript -->
-        <script src="scripts.js"></script>
+        <model-viewer 
+          src="caɾ.3mf"
+          auto-rotate 
+          camera-controls 
+          style="width: 400px; height: 400px;">
+        </model-viewer>
         
     </body>
 
