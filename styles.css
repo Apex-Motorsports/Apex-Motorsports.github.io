@@ -38,3 +38,15 @@ nav a {
   font-weight: bold;
   font-family: 'Orbitron'
 }
+
+.first-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin: 40px auto;
+}
+
+.model, .text {
+  max-width: 400px;
+}
